@@ -35,5 +35,6 @@
     height: 80vh;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-end;
   }
