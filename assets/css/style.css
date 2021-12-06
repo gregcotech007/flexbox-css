@@ -3,13 +3,13 @@
 
 .box {
   font-size: 50px;
-  color: red;
+  color: white;
   padding: 10px;
   text-align:center;
   font-family: lato;
   font-weight: 300;
   box-sizing: border-box;
-  width: 300px;
+  width: 33.33333%;
 }
 
 .box-1 {
@@ -28,3 +28,11 @@
   .box-8 {background: #1ba1e2;} 
   .box-9 {background: #aa00ff;}
   
+/*  LAYOUT STYLES */
+.container {
+    display: flex;
+    border: 8px solid black;
+    height: 80vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
