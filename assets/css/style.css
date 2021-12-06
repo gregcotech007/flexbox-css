@@ -9,8 +9,11 @@
   font-family: lato;
   font-weight: 300;
   box-sizing: border-box;
-  flex-basis: 25%;
+  flex-basis: 50%;
   /* width: 300px; */
+}
+.box:nth-of-type(3n) {
+    flex-basis: 100%;
 }
 
 .box-1 {background: #e51400; /* font-size: 1.3em; */}
@@ -30,7 +33,7 @@
     border: 8px solid black;
     height: 80vh;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
